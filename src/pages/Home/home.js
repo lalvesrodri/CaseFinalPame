@@ -6,7 +6,7 @@ import ProductCard from "../../components/ProductCard/index";
 import anuncio from "../../components/anuncio/comprimento.jpg";
 import Header from "../../components/header/index";
 import Futter from "../../components/futter/index";
-import Anuncio from "../../components/anuncio/index";
+import Cartaz from "../../components/anuncio/index";
 
 class Home extends React.Component {
   /*constructor() {
@@ -28,7 +28,7 @@ class Home extends React.Component {
         <Header />
 
         <div className="container">
-          <Anuncio />
+          <Cartaz />
 
           <div className="Produto">
             <li>

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import "./style.css";
 import anuncio from "../anuncio/comprimento.jpg";
 
-class Anuncio extends React.Component {
+class Cartaz extends React.Component {
   render() {
     return (
       <div className="container">
@@ -15,4 +15,4 @@ class Anuncio extends React.Component {
     );
   }
 }
-export default Anuncio;
+export default Cartaz;
