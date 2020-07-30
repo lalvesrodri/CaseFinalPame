@@ -12,7 +12,7 @@ class Router extends React.Component {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/products" component={Products} />
-          <Route exact path="/carrinho" component={Products} />
+          <Route exact path="/carrinho" component={Carrinho} />
         </Switch>
       </BrowserRouter>
     );

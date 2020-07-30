@@ -1,0 +1,19 @@
+body {
+  background-color: #ffffff;
+}
+.tabela {
+  display: flex;
+  justify-content: center;
+}
+
+.titulo {
+  font-size: 50px;
+  color: #f8ca85;
+  background-color: #de7e47;
+}
+
+.produtos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

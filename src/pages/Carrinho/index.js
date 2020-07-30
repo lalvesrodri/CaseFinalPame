@@ -12,9 +12,11 @@ class Carrinho extends React.Component {
         <Header />
         <div className="tabela">
           <div className="titulo">
-            <h2>Meus produtos no Carrinho</h2>
+            <h2 className="title">Meus produtos no Carrinho</h2>
           </div>
           <div className="produtos"></div>
+          <div className="fotos"></div>
+          <div className="descricao"></div>
         </div>
         <Futter />
       </>
