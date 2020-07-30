@@ -6,29 +6,34 @@ header {
   justify-content: space-between;
 }
 
-.logo {
-  background-color: none;
-  height: 20px;
-  width: 50px;
+.logotipo {
+  margin-top: 10px;
   text-align: center;
 }
 .pesquisar {
   text-align: center;
 }
 
-.map {
+.pesquisar {
+  margin-top: 20px;
+}
+.mapa {
   display: flex;
   text-align: center;
   list-style-type: none;
 }
 
-.map li {
+.mapa li {
   padding: 10px;
 }
 .Car {
   list-style-type: none;
 }
 
-.Janela button {
-  padding: 10px;
+button {
+  margin-top: 20px;
+  background-color: rgb(241, 95, 95);
+}
+button:hover {
+  background-color: red;
 }

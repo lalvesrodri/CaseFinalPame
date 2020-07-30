@@ -9,9 +9,9 @@ class Header extends React.Component {
   render() {
     return (
       <header>
-        <div className="logo">
+        <div className="logotipo">
           <Link to={{ pathname: "/" }}>
-            <img src={Logo} width="40" />
+            <img src={Logo} width="100" />
           </Link>
         </div>
         <forms class="buscar">
@@ -19,15 +19,14 @@ class Header extends React.Component {
             <input type="text" id="pesquisar" placeholder="pesquisar" />
           </div>
         </forms>
-        <div className="map">
+        <div className="mapa">
           <li>
             <Link to={{ pathname: "/products" }}>Produtos</Link>
           </li>
           <li>
             <Link to={{ pathname: "#" }}>Nossa História</Link>
           </li>
-        </div>
-        <div className="Car">
+
           <li>
             <Link to={{ pathname: "/carrinho" }}>
               <img src={Carrinho} width="20" />
