@@ -7,7 +7,7 @@ import Anuncio from "../anuncio/comprimento.jpg";
 class Cartaz extends React.Component {
   render() {
     return (
-      <div className="container">
+      <div className="Container">
         <div className="titulo">
           <h2>Conheça nossa nova linha de bolos de rolo</h2>
         </div>

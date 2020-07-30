@@ -35,8 +35,12 @@ class Header extends React.Component {
         </div>
 
         <div className="janela">
-          <button onClick={this.changeDisplay}>Login</button>
-          <button onClick={this.changeDisplay}>Cadastre-se</button>
+          <Link to={{ pathname: "/login" }}>
+            <button onClick={this.changeDisplay}>Login</button>
+          </Link>
+          <Link to={{ pathname: "/products" }}>
+            <button onClick={this.changeDisplay}>Cadastre-se</button>
+          </Link>
         </div>
       </header>
     );

@@ -1,7 +1,12 @@
-.container {
+.Container {
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+}
+.anuncio {
+  background-color: #de7e47;
+  display: flex;
   justify-content: center;
 }
 .titulo {
