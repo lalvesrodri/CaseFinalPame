@@ -19,9 +19,17 @@ body {
   justify-content: center;
   justify-items: center;
   width: 70%;
+  list-style-type: none;
 
   padding: 10px;
   margin-left: 70px;
+}
+
+.name li {
+  padding: 10px;
+}
+input {
+  width: 100px;
 }
 .input {
   align-items: center;

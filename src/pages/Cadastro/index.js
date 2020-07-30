@@ -12,10 +12,16 @@ class Cadastro extends React.Component {
         <Header />
         <div className="login">
           <forms className="name">
-            <input type="text" id="nome" placeholder="Nome" />
-            <input type="text" id="E-mail" placeholder="E-mail" />
+            <li>
+              <input type="text" id="nome" placeholder="Nome" />
+            </li>
+            <li>
+              <input type="text" id="E-mail" placeholder="E-mail" />
+            </li>
             <input type="text" id="Senha" placeholder="Senha" />
-            <input type="text" id="Endereço" placeholder="Endereço" />
+            <li>
+              <input type="text" id="Endereço" placeholder="Endereço" />
+            </li>
           </forms>
           <a href="/">
             <button>Cadastre-se</button>

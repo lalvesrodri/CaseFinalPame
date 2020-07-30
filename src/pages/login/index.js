@@ -12,8 +12,12 @@ class Login extends React.Component {
         <Header />
         <div className="login">
           <forms className="name">
-            <input type="text" id="login" placeholder="login" />
-            <input type="text" id="senha" placeholder="senha" />
+            <li>
+              <input type="text" id="login" placeholder="login" />
+            </li>
+            <li>
+              <input type="text" id="senha" placeholder="senha" />
+            </li>
           </forms>
           <a href="/">
             <button>Entrar</button>
