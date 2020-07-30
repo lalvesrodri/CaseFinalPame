@@ -1,0 +1,11 @@
+.anuncio {
+  background-color: lightgreen;
+  display: flex;
+  max-width: 2000px;
+  flex-direction: row wrap;
+  list-style-type: none;
+}
+
+.anuncio li {
+  padding: 10px;
+}

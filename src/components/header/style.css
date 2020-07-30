@@ -1,0 +1,34 @@
+header {
+  background-color: #a3582f;
+  margin: 0px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  background-color: none;
+  height: 20px;
+  width: 50px;
+  text-align: center;
+}
+.pesquisar {
+  text-align: center;
+}
+
+.map {
+  display: flex;
+  text-align: center;
+  list-style-type: none;
+}
+
+.map li {
+  padding: 10px;
+}
+.Car {
+  list-style-type: none;
+}
+
+.Janela button {
+  padding: 10px;
+}

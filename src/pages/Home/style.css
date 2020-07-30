@@ -1,0 +1,39 @@
+body {
+  background-color: #ffffff;
+  margin: 0px;
+}
+
+.container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Produto {
+  margin-left: 25%;
+  margin-right: 25%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row wrap;
+  list-style-type: none;
+}
+.Produto li {
+  padding: 10px;
+}
+
+.anuncio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bloco {
+  background-color: #ffffff;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+.oi {
+  background-color: #ffffff;
+}
