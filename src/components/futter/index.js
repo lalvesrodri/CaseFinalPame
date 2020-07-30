@@ -12,25 +12,22 @@ class Futter extends React.Component {
         </div>
         <div className="map">
           <li>
-            <Link to={{ pathname: "products" }}>Produtos</Link>
+            <Link to={{ pathname: "/products" }}>Produtos</Link>
           </li>
           <li>
-            <Link to={{ pathname: "#" }}>Nossa História</Link>
+            <Link to={{ pathname: "#" }}>Whatsaap</Link>
           </li>
           <li>
-            <Link to={{ pathname: "#" }}>Vendas</Link>
+            <Link to={{ pathname: "#" }}>Instagram</Link>
           </li>
           <li>
-            <Link to={{ pathname: "#" }}>duvidas</Link>
+            <Link to={{ pathname: "#" }}>Facebook</Link>
           </li>
         </div>
-        <forms class="buscar">
-          <div className="pesquisar">
-            <input type="text" id="pesquisar" placeholder="pesquisar" />
-          </div>
-        </forms>
+
         <div className="janela">
-          <button onClick={this.changeDisplay}>janela</button>
+          <button onClick={this.changeDisplay}>Proteção ao covid</button>
+          <button onClick={this.changeDisplay}>Nossa história</button>
         </div>
       </header>
     );
