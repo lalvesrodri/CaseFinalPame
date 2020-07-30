@@ -10,7 +10,12 @@ class Carrinho extends React.Component {
     return (
       <>
         <Header />
-
+        <div className="tabela">
+          <div className="titulo">
+            <h2>Meus produtos no Carrinho</h2>
+          </div>
+          <div className="produtos"></div>
+        </div>
         <Futter />
       </>
     );
