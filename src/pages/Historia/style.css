@@ -1,9 +1,9 @@
-.compras {
-  background-color: white;
-  margin-top: 30px;
-  width: 500px;
-  height: 400px;
+.componente {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+}
+
+.texto {
+  color: #f8ca85;
+  background-color: #de7e47;
 }
