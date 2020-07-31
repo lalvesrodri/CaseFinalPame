@@ -8,7 +8,7 @@ class Futter extends React.Component {
     return (
       <header>
         <div className="logo">
-          <Link to={{ pathname: "#" }}>Fluxo</Link>
+          <Link to={{ pathname: "/" }}>Fluxo</Link>
         </div>
         <div className="map">
           <li>
@@ -27,7 +27,9 @@ class Futter extends React.Component {
 
         <div className="janela">
           <button onClick={this.changeDisplay}>Proteção ao covid</button>
-          <button onClick={this.changeDisplay}>Nossa história</button>
+          <Link to={{ pathname: "/historia" }}>
+            <button onClick={this.changeDisplay}>Nossa história</button>
+          </Link>
         </div>
       </header>
     );
