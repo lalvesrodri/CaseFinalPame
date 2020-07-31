@@ -24,7 +24,7 @@ class Header extends React.Component {
             <Link to={{ pathname: "/products" }}>Produtos</Link>
           </li>
           <li>
-            <Link to={{ pathname: "#" }}>Nossa História</Link>
+            <Link to={{ pathname: "/historia" }}>Nossa História</Link>
           </li>
 
           <li>

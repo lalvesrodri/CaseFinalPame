@@ -6,6 +6,7 @@ import Products from "../Products/index";
 import Carrinho from "../Carrinho/index";
 import Login from "../login/index";
 import Cadastro from "../Cadastro/index";
+import Historia from "../Historia/index";
 
 class Router extends React.Component {
   render() {
@@ -17,6 +18,7 @@ class Router extends React.Component {
           <Route exact path="/carrinho" component={Carrinho} />
           <Route exact path="/login" component={Login} />
           <Route exact path="/cadastro" component={Cadastro} />
+          <Route exact path="/historia" component={Historia} />
         </Switch>
       </BrowserRouter>
     );
