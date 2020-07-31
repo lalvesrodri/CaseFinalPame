@@ -4,6 +4,7 @@ body {
 .tabela {
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 .titulo {
@@ -16,4 +17,5 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
